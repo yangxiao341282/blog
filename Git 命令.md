@@ -16,7 +16,11 @@
 
 git remote add origin git@github.com:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.git
 
- 
+2 远程仓库发生改变后，需要和本地仓库同步才能执行push操作
+
+git fetch origin
+git merge origin/master
+
 
 **一．** **新建代码库**
 
