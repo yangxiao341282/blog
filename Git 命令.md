@@ -212,4 +212,8 @@ $ git branch -dr [remote/branch]
 
  
 
- 
+ ## 工作区删除的文件从本地仓库恢复
+
+git reset HEAD [文件名] # 从本地仓库恢复到暂存区
+
+git checkout [文件名] #从暂存区恢复到工作区
