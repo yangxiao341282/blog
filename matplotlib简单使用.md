@@ -24,7 +24,6 @@
 #### Redhat 安装命令
 
 <center><pre>sudo yum install python-matplotlib</pre></center>  
-
 ## 二、matplotlib的基础使用
 
 ```python
@@ -59,8 +58,8 @@ ax.hist(x,y) #直方图
 #################################  对于图的设定 ################################
 
 ###设定x和y轴的区间范围
-ax1.setxlim((0,1))
-ax1.setylim((0,1))  
+ax1.set_xlim((0,1))
+ax1.set_ylim((0,1))  
 
 ###设定x和y轴上尺度点的位置
 ax1.set_xticks([0, 0.2, 0.4, 0.6, 0.8, 1.0])
